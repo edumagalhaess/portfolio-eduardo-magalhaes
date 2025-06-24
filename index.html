@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Magalhães - Desenvolvedor Front-End</title>
+    <!-- Font Awesome para os ícones -->
+   <link rel="stylesheet" href="./style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+    <div class="header-content">
+        <!-- Logo -->
+        <a href="#inicio" class="logo">  Eduardo Magalhães  </a>
+        
+        <!-- Menu de navegação -->
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Menu toggle para mobile -->
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+    <!-- Seção Início -->
+    <section id="inicio">
+        <div class="container">
+            <!-- Conteúdo principal do início -->
+            <div class="inicio-content">
+                <!-- Informações pessoais -->
+                <div class="inicio-text">
+                    <h1>Olá eu sou,<br>Eduardo Magalhães</h1>
+                    <h2>Sou Desenvolvedor Front-End</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    
+                    <!-- Redes sociais -->
+                    <div class="redes-sociais">
+                        <a href="https://www.linkedin.com/in/eduardoccmagalhaes/" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/edumagalhaess" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://wa.me/5528999844096" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- Botão download currículo -->
+                    <a href="./assets/CV-Programador Eduardo Magalhaes.pdf" class="btn-download" download >
+                        <i class="fas fa-download"></i> Baixar Currículo
+                    </a>
+                </div>
+                
+                <!-- Espaço para foto -->
+                <div class="foto-container" >
+                    <div class="foto-placeholder">
+                        <img id="ft-inicio" src="./assets/foto Profissional.jpeg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="sobre-content">
+                <!-- Espaço para foto -->
+                <div class="foto-sobre">
+                    <div class="foto-placeholder">
+                        <img id="ft-sobre" src="./assets/logoprogramador.png">
+                    </div>
+                </div>
+                
+                <!-- Texto sobre -->
+                <div class="sobre-text">
+                    <p>Sou <strong>Eduardo</strong>, desenvolvedor Front-End em transição de carreira, com formação em Marketing e experiência anterior como gestor de tráfego e social media.</p>
+                    
+                    <p>Atualmente, estudo <strong>HTML, CSS, JavaScript</strong> pelo <strong>Dev Club</strong>, focado em criar interfaces funcionais, responsivas e com boa experiência para o usuário.</p>
+                    
+                    <p>Sou comprometido com aprendizado contínuo, resolução de problemas e trabalho em equipe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-grid">
+                <!-- Projeto 1 - Exemplo -->
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="" alt="Imagem do Projeto" class="projeto-img">
+                        <!-- Overlay com links que aparece no hover -->
+                        <div class="projeto-overlay">
+                            <a href="#" class="projeto-link" target="_blank" title="Ver Site">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="projeto-link" target="_blank" title="Ver Repositório">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3 class="projeto-titulo">Nome do Projeto</h3>
+                        <p class="projeto-descricao">Breve descrição do projeto e suas funcionalidades principais.</p>
+                        <!-- Tecnologias utilizadas -->
+                        <div class="tecnologias">
+                            <span class="tech-icon" title="HTML">
+                                <i class="fab fa-html5"></i>
+                            </span>
+                            <span class="tech-icon" title="CSS">
+                                <i class="fab fa-css3-alt"></i>
+                            </span>
+                            <span class="tech-icon" title="JavaScript">
+                                <i class="fab fa-js-square"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 - Exemplo -->
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="" alt="Imagem do Projeto 2" class="projeto-img">
+                        <div class="projeto-overlay">
+                            <a href="#" class="projeto-link" target="_blank" title="Ver Site">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="projeto-link" target="_blank" title="Ver Repositório">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3 class="projeto-titulo">Segundo Projeto</h3>
+                        <p class="projeto-descricao">Descrição do segundo projeto com suas características e objetivos.</p>
+                        <div class="tecnologias">
+                            <span class="tech-icon" title="HTML">
+                                <i class="fab fa-html5"></i>
+                            </span>
+                            <span class="tech-icon" title="CSS">
+                                <i class="fab fa-css3-alt"></i>
+                            </span>
+                            <span class="tech-icon" title="JavaScript">
+                                <i class="fab fa-js-square"></i>
+                            </span>
+                            <span class="tech-icon" title="React">
+                                <i class="fab fa-react"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 - Template para futuros projetos -->
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="" alt="Imagem do Projeto 3" class="projeto-img">
+                        <div class="projeto-overlay">
+                            <a href="#" class="projeto-link" target="_blank" title="Ver Site">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="projeto-link" target="_blank" title="Ver Repositório">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3 class="projeto-titulo">Terceiro Projeto</h3>
+                        <p class="projeto-descricao">Espaço para descrição do terceiro projeto.</p>
+                        <div class="tecnologias">
+                            <!-- Adicione os ícones das tecnologias conforme necessário -->
+                            <span class="tech-icon" title="HTML">
+                                <i class="fab fa-html5"></i>
+                            </span>
+                            <span class="tech-icon" title="CSS">
+                                <i class="fab fa-css3-alt"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contato-redes">
+                <a href="https://www.linkedin.com/in/eduardoccmagalhaes/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://wa.me/5528999844096" target="_blank" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://github.com/edumagalhaess" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+</html>
